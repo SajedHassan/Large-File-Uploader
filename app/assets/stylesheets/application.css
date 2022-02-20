@@ -45,3 +45,29 @@
 .hidden {
     display: none;
 }
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.login-button {
+    width: 500px;
+    margin: 25px;
+}
+
+input {
+    width: 400px;
+    margin: 20px;
+    float: right;
+}
+
+label {
+    width: 50px;
+    float: left;
+    margin: 22px;
+}
