@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bucket_name: MyString
+  bucket_location: MyString
+  filename: MyString
+  title: MyString
+  description: MyString
+  size: 1
+  path: MyString
+  mime_type: MyString
+  deleted_at: 2022-02-20 03:46:20
+  account: one
+
+two:
+  bucket_name: MyString
+  bucket_location: MyString
+  filename: MyString
+  title: MyString
+  description: MyString
+  size: 1
+  path: MyString
+  mime_type: MyString
+  deleted_at: 2022-02-20 03:46:20
+  account: two

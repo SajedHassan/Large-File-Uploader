@@ -1,0 +1,17 @@
+common: &COMMON_SETTINGS
+  regions:
+    list: ['us-west-1']
+    default: us-west-1
+  buckets:
+    default-bucket:
+      type: permanent
+      region: us-west-1
+
+production:
+  <<: *COMMON_SETTINGS
+
+development: &DEVELOPMENT
+  <<: *COMMON_SETTINGS
+
+test:
+  <<: *DEVELOPMENT
