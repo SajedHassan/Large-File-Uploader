@@ -1,3 +1,28 @@
-.hidden {
+.dropzone {
     display: none;
+}
+
+.no-files-added {
+    margin: 15px;
+}
+
+.mp-15 {
+    margin-top: 15px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.corners-aligned-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
